@@ -21,8 +21,8 @@ export async function getBackendWalletBalanceConfiguration(
     method: "GET",
     url: "/configuration/backend-wallet-balance",
     schema: {
-      summary: "Get wallet-balance configuration",
-      description: "Get wallet-balance configuration",
+      summary: "Get backend wallet balance configuration",
+      description: "Get backend wallet balance configuration",
       tags: ["Configuration"],
       operationId: "getBackendWalletBalanceConfiguration",
       response: {
